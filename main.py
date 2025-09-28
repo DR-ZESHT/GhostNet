@@ -1,4 +1,5 @@
 import os
+import re
 import time
 import requests
 import netifaces
@@ -76,6 +77,13 @@ def check_tor():
         os.system("cp nftables.conf /etc/")
         os.system("sudo systemctl restart nftables")
     print(GREEN+"[*]Set DNS")
+    if defult_interface != "wlan0" :
+        with open("nftables.conf","r") as interface_read :
+            inter_read = interface_read.read()
+        replace_interface = re.sub("wlan0",defult_interface,inter_read)
+        with open("nftables.conf","w") as write :
+            write.write(replace_interface)
+    
     with open("/etc/resolv.conf","w") as tor_resolv :
         tor_resolv.write("nameserver 127.0.0.1")
     print(RED + "All TCP traffic is now transparently routed through Tor.")
