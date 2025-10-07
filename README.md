@@ -1,7 +1,7 @@
 # GhostNet
 
 Secure your network traffic with GhostNet - a Python tool to connect through Tor, spoof MAC Addresses, and verify DNS/IP safety.
-![Logo](https://dr-zesht.ir/wp-content/uploads/2025/09/ghostnet.png)
+![Logo](https://github.com/DR-ZESHT/GhostNet/blob/main/GhostNet-Screenshot.png)
 
 ##  Prerequisites 🛠
 
