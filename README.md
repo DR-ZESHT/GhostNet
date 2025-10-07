@@ -40,7 +40,7 @@ sudo python3 main.py
 
 ## Screenshots 📸
 
-![Ghostnet Screenshot](https://dr-zesht.ir/wp-content/uploads/2025/09/ghostnet_screenshot.png)
+![Ghostnet Screenshot](https://github.com/DR-ZESHT/GhostNet/blob/main/Pictures/GhostNet-Screenshot.png)
 
 
 ## Warning ⚠️
